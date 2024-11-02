@@ -1,5 +1,5 @@
 import { Box, MenuItem, TextField } from "@mui/material"
-import { ChangeEvent, ChangeEventHandler, SetStateAction, useState } from "react"
+import { type ChangeEvent, ChangeEventHandler, SetStateAction, useState } from "react"
 
 export const MuiSelect = () => {
   const [value, setValue] = useState<string>('')
